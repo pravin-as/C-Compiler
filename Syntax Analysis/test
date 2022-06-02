@@ -1,0 +1,78 @@
+@implementation XYZ ;
+@interface Idk : NSObject
+{ 
+ 
+@property NSString *tishang;
+ 
+ 
+ 
+
+}
+
+- (int) max:(int) num1 secondNumber:(int) num2 {
+
+   // array declaration of data type double.
+   double one [ 10 ] ;
+   
+   // array declaration of data type int.
+   int two [ 10 ] ;
+   
+   // array declaration of data type string.
+   string three [ 10 ] ; 
+
+   // string delaration.   
+   string four =  "string is defined" ; 
+   
+   // for loop.
+   for (  int i = 0 ;  i < n ; i =  i + 1     ) { 
+                NSlog ( "This is in for loop" ) ; 
+                NSlog (" Multiple statements ") ;
+      }
+   
+   // Nested for loop.
+   for (  int i = 0 ;  i < n ; i =  i + 1     ) { 
+            for (  int j = 0 ;  j < n ; j =  j + 1     ) { 
+               for (  int k = 0 ;  k < n ; k =  k + 1     ) { 
+               NSlog ( "Nested for loop" ) ; 
+    }
+    }   
+    }
+    
+    // while loop
+    while (a < b && a < 100 ) 
+   {  
+     NSlog ( "In the while loop" ) ; 
+     a = a + 1;
+       
+   }
+   
+   
+   // Nested while loop
+   while (a < b && a < 100 ) 
+   {  
+     while (a < b && a < 100 ) 
+   {  
+     NSlog ( "In the while loop" ) ; 
+     a = a + 1;
+       
+   }
+       
+   }
+   
+   
+   
+   /* variable declaration */
+   int result;
+   
+   
+  // conditional if
+  if ((num1 * 3 + num1) > num2)   
+    {
+      result = num1;
+   } else {
+      result = num2;
+   } 
+   
+ 
+   return result; 
+}
